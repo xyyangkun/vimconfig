@@ -31,7 +31,7 @@ set ruler
 set expandtab
 
 
-列出空格和tab
+"列出空格和tab
 set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
 
