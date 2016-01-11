@@ -24,11 +24,19 @@ filetype off                    " required!
 set autoindent
 set tabstop=4
 set shiftwidth=4
-set backspace=2
+"set backspace=2
 set incsearch
 set ruler
 "for tab repeace with space 
 set expandtab
+
+
+列出空格和tab
+set list
+set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+
+"搜索高亮设置,   如果不想高亮可以用此命令: nohlsearch
+set hlsearch
 
 " nmap taglist
 nmap <silent> <F8> <ESC>:Tlist<RETURN>
